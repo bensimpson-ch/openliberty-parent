@@ -13,6 +13,7 @@
         <testServerHttpPort>9080</testServerHttpPort>
         <testServerHttpsPort>9443</testServerHttpsPort>
         <packaging.type>usr</packaging.type>
+        <openLiberty.version>19.0.0.8</openLiberty.version>
     </properties>
 
     <dependencies>
@@ -123,7 +124,7 @@
                             <assemblyArtifact>
                                 <groupId>io.openliberty</groupId>
                                 <artifactId>openliberty-runtime</artifactId>
-                                <version>19.0.0.5</version>
+                                <version>${openLiberty.version}</version>
                                 <type>zip</type>
                             </assemblyArtifact>
                             <serverName>${project.artifactId}Server</serverName>
