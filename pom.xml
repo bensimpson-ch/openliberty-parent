@@ -13,7 +13,7 @@
         <testServerHttpPort>9080</testServerHttpPort>
         <testServerHttpsPort>9443</testServerHttpsPort>
         <packaging.type>usr</packaging.type>
-        <openLiberty.version>19.0.0.8</openLiberty.version>
+        <openLiberty.version>19.0.0.9</openLiberty.version>
     </properties>
 
     <dependencies>
@@ -159,7 +159,7 @@
                                 </goals>
                                 <configuration>
                                     <includes>
-                                        <include>**/IT*.java</include>
+                                        <include>**/*IT.java</include>
                                     </includes>
                                     <systemPropertyVariables>
                                         <liberty.test.port>
